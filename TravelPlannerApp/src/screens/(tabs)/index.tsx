@@ -1,98 +1,219 @@
-import { Image } from 'expo-image';
-import { Platform, StyleSheet } from 'react-native';
+import React, { useEffect } from "react";
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+import { useNavigation } from "@react-navigation/native";
+import { NativeStackNavigationProp } from "@react-navigation/native-stack";
+import { Ionicons } from "@expo/vector-icons";
 
-import { HelloWave } from '@/components/hello-wave';
-import ParallaxScrollView from '@/components/parallax-scroll-view';
-import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
-import { Link } from 'expo-router';
+import { useTripStore } from "@store/tripStore";
+import TripCard from "@components/trip/TripCard";
+import Button from "@components/common/Button";
+import { COLORS, SPACING, FONT_SIZES } from "@utils/constants";
+import { RootStackParamList } from "@navigation/types";
+import { isUpcoming } from "@utils/dateUtils";
 
-export default function HomeScreen() {
-  return (
-    <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
-      headerImage={
-        <Image
-          source={require('@/assets/images/partial-react-logo.png')}
-          style={styles.reactLogo}
-        />
-      }>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
-        <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({
-              ios: 'cmd + d',
-              android: 'cmd + m',
-              web: 'F12',
-            })}
-          </ThemedText>{' '}
-          to open developer tools.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <Link href="/modal">
-          <Link.Trigger>
-            <ThemedText type="subtitle">Step 2: Explore</ThemedText>
-          </Link.Trigger>
-          <Link.Preview />
-          <Link.Menu>
-            <Link.MenuAction title="Action" icon="cube" onPress={() => alert('Action pressed')} />
-            <Link.MenuAction
-              title="Share"
-              icon="square.and.arrow.up"
-              onPress={() => alert('Share pressed')}
-            />
-            <Link.Menu title="More" icon="ellipsis">
-              <Link.MenuAction
-                title="Delete"
-                icon="trash"
-                destructive
-                onPress={() => alert('Delete pressed')}
-              />
-            </Link.Menu>
-          </Link.Menu>
-        </Link>
+type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 
-        <ThemedText>
-          {`Tap the Explore tab to learn more about what's included in this starter app.`}
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-        <ThemedText>
-          {`When you're ready, run `}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-        </ThemedText>
-      </ThemedView>
-    </ParallaxScrollView>
-  );
-}
+const HomeScreen: React.FC = () => {
+	const navigation = useNavigation<NavigationProp>();
+	const { trips, fetchTrips } = useTripStore();
+
+	useEffect(() => {
+		fetchTrips();
+	}, []);
+
+	const upcomingTrips = trips
+		.filter((trip) => isUpcoming(trip.startDate))
+		.sort((a, b) => a.startDate.getTime() - b.startDate.getTime())
+		.slice(0, 3);
+
+	const handleCreateTrip = () => {
+		navigation.navigate("CreateTrip");
+	};
+
+	const handleTripPress = (tripId: string) => {
+		navigation.navigate("TripDetail", { tripId });
+	};
+
+	return (
+		<SafeAreaView style={styles.container}>
+			<ScrollView showsVerticalScrollIndicator={false}>
+				<View style={styles.header}>
+					<View>
+						<Text style={styles.greeting}>Welcome back!</Text>
+						<Text style={styles.subtitle}>Plan your next adventure</Text>
+					</View>
+					<TouchableOpacity>
+						<Ionicons name='notifications-outline' size={28} color={COLORS.text} />
+					</TouchableOpacity>
+				</View>
+
+				<View style={styles.statsContainer}>
+					<View style={styles.statCard}>
+						<Ionicons name='airplane' size={32} color={COLORS.primary} />
+						<Text style={styles.statNumber}>{trips.length}</Text>
+						<Text style={styles.statLabel}>Total Trips</Text>
+					</View>
+					<View style={styles.statCard}>
+						<Ionicons name='calendar' size={32} color={COLORS.secondary} />
+						<Text style={styles.statNumber}>{upcomingTrips.length}</Text>
+						<Text style={styles.statLabel}>Upcoming</Text>
+					</View>
+				</View>
+
+				<View style={styles.section}>
+					<View style={styles.sectionHeader}>
+						<Text style={styles.sectionTitle}>Upcoming Trips</Text>
+						<TouchableOpacity onPress={() => navigation.navigate("MainTabs", { screen: "Trips" })}>
+							<Text style={styles.seeAll}>See All</Text>
+						</TouchableOpacity>
+					</View>
+
+					{upcomingTrips.length > 0 ? (
+						upcomingTrips.map((trip) => <TripCard key={trip.id} trip={trip} onPress={() => handleTripPress(trip.id)} />)
+					) : (
+						<View style={styles.emptyState}>
+							<Ionicons name='airplane-outline' size={64} color={COLORS.border} />
+							<Text style={styles.emptyText}>No upcoming trips</Text>
+							<Button title='Create Your First Trip' onPress={handleCreateTrip} style={styles.createButton} />
+						</View>
+					)}
+				</View>
+
+				<View style={styles.quickActions}>
+					<Text style={styles.sectionTitle}>Quick Actions</Text>
+					<View style={styles.actionsGrid}>
+						<TouchableOpacity style={styles.actionCard} onPress={handleCreateTrip}>
+							<Ionicons name='add-circle' size={32} color={COLORS.primary} />
+							<Text style={styles.actionText}>New Trip</Text>
+						</TouchableOpacity>
+						<TouchableOpacity style={styles.actionCard}>
+							<Ionicons name='search' size={32} color={COLORS.primary} />
+							<Text style={styles.actionText}>Destinations</Text>
+						</TouchableOpacity>
+						<TouchableOpacity style={styles.actionCard}>
+							<Ionicons name='bookmark' size={32} color={COLORS.primary} />
+							<Text style={styles.actionText}>Saved</Text>
+						</TouchableOpacity>
+						<TouchableOpacity style={styles.actionCard}>
+							<Ionicons name='settings' size={32} color={COLORS.primary} />
+							<Text style={styles.actionText}>Settings</Text>
+						</TouchableOpacity>
+					</View>
+				</View>
+			</ScrollView>
+		</SafeAreaView>
+	);
+};
 
 const styles = StyleSheet.create({
-  titleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-  },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
-  },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
-    position: 'absolute',
-  },
+	container: {
+		flex: 1,
+		backgroundColor: COLORS.background,
+	},
+	header: {
+		flexDirection: "row",
+		justifyContent: "space-between",
+		alignItems: "center",
+		padding: SPACING.md,
+	},
+	greeting: {
+		fontSize: FONT_SIZES.xxl,
+		fontWeight: "bold",
+		color: COLORS.text,
+	},
+	subtitle: {
+		fontSize: FONT_SIZES.md,
+		color: COLORS.textSecondary,
+		marginTop: SPACING.xs,
+	},
+	statsContainer: {
+		flexDirection: "row",
+		padding: SPACING.md,
+		gap: SPACING.md,
+	},
+	statCard: {
+		flex: 1,
+		backgroundColor: COLORS.card,
+		padding: SPACING.md,
+		borderRadius: 12,
+		alignItems: "center",
+		shadowColor: "#000",
+		shadowOffset: { width: 0, height: 2 },
+		shadowOpacity: 0.1,
+		shadowRadius: 4,
+		elevation: 3,
+	},
+	statNumber: {
+		fontSize: FONT_SIZES.xxl,
+		fontWeight: "bold",
+		color: COLORS.text,
+		marginTop: SPACING.sm,
+	},
+	statLabel: {
+		fontSize: FONT_SIZES.sm,
+		color: COLORS.textSecondary,
+		marginTop: SPACING.xs,
+	},
+	section: {
+		padding: SPACING.md,
+	},
+	sectionHeader: {
+		flexDirection: "row",
+		justifyContent: "space-between",
+		alignItems: "center",
+		marginBottom: SPACING.md,
+	},
+	sectionTitle: {
+		fontSize: FONT_SIZES.xl,
+		fontWeight: "bold",
+		color: COLORS.text,
+	},
+	seeAll: {
+		fontSize: FONT_SIZES.md,
+		color: COLORS.primary,
+		fontWeight: "600",
+	},
+	emptyState: {
+		alignItems: "center",
+		paddingVertical: SPACING.xl,
+	},
+	emptyText: {
+		fontSize: FONT_SIZES.md,
+		color: COLORS.textSecondary,
+		marginTop: SPACING.md,
+		marginBottom: SPACING.lg,
+	},
+	createButton: {
+		paddingHorizontal: SPACING.xl,
+	},
+	quickActions: {
+		padding: SPACING.md,
+	},
+	actionsGrid: {
+		flexDirection: "row",
+		flexWrap: "wrap",
+		gap: SPACING.md,
+		marginTop: SPACING.md,
+	},
+	actionCard: {
+		width: "47%",
+		backgroundColor: COLORS.card,
+		padding: SPACING.lg,
+		borderRadius: 12,
+		alignItems: "center",
+		shadowColor: "#000",
+		shadowOffset: { width: 0, height: 2 },
+		shadowOpacity: 0.1,
+		shadowRadius: 4,
+		elevation: 3,
+	},
+	actionText: {
+		fontSize: FONT_SIZES.md,
+		color: COLORS.text,
+		marginTop: SPACING.sm,
+		fontWeight: "600",
+	},
 });
+
+export default HomeScreen;

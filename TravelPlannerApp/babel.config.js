@@ -3,11 +3,13 @@ module.exports = function (api) {
 	return {
 		presets: ["babel-preset-expo"],
 		plugins: [
+			"expo-router/babel",
 			[
 				"module-resolver",
 				{
 					root: ["./src"],
 					alias: {
+						"@": "./src",
 						"@components": "./src/components",
 						"@screens": "./src/screens",
 						"@services": "./src/services",
