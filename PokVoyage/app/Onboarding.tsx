@@ -16,19 +16,19 @@ const slidesData = [
 	},
 	{
 		key: "2",
-		img: require("../assets/images/build.png"),
+		img: require("../assets/images/travel-agent.png"),
 		titleKey: "onboarding.title2",
 		descKey: "onboarding.desc2",
 	},
 	{
 		key: "3",
-		img: require("../assets/images/test.png"),
+		img: require("../assets/images/telescope.png"),
 		titleKey: "onboarding.title3",
 		descKey: "onboarding.desc3",
 	},
 	{
 		key: "4",
-		img: require("../assets/images/trade.png"),
+		img: require("../assets/images/plan.png"),
 		titleKey: "onboarding.title4",
 		descKey: "onboarding.desc4",
 	},
@@ -85,7 +85,7 @@ export default function OnboardingScreen({ onLogIn }: OnboardingScreenProps) {
 	);
 
 	return (
-		<LinearGradient colors={Theme.dark.colorsDark.gradient as [string, string, string]} style={styles.container}>
+		<LinearGradient colors={Theme.light.colorsLight.gradient as [string, string, string]} style={styles.container}>
 			{/* slides */}
 			<View style={styles.flatListContainer}>
 				<FlatList

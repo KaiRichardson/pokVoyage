@@ -1,7 +1,7 @@
 {
 	"loading": "Se încarcă…",
 	"onboarding": {
-		"title1": "Bine ai venit la Qompyl",
+		"title1": "Bine ai venit la PokVoyage",
 		"title2": "Construiește-ți strategia",
 		"title3": "Testează-ți strategia",
 		"title4": "Începe tranzacționarea sau investiția",
@@ -22,7 +22,7 @@
 		"submit": "Autentifică-te",
 		"noAccount": "Nu ai cont? Înregistrează-te",
 		"skipForNow": "Sari pentru acum",
-		"subtitle": "Connectează-te în contul tău Qompyl",
+		"subtitle": "Connectează-te în contul tău PokVoyage",
 		"google": "Continuă cu Google",
 		"apple": "Continuă cu Apple"
 	},
@@ -34,7 +34,7 @@
 		"submit": "Înregistrează-te",
 		"passwordStrength": "Securitatea parolei",
 		"alreadyAccount": "Ai deja cont? Autentifică-te",
-		"subtitle": "Creează contul tău Qompyl",
+		"subtitle": "Creează contul tău PokVoyage",
 		"name": "Nume complet",
 		"tooWeak": "Prea slabă",
 		"weak": "Slabă",
@@ -61,7 +61,7 @@
 		"notificationPreferences": "Preferințe notificări",
 		"securitySettings": "Setări securitate",
 		"helpSupport": "Ajutor & Suport",
-		"aboutQompyl": "Despre Qompyl",
+		"aboutPokVoyage": "Despre PokVoyage",
 		"totalTrades": "Număr total tranzacții",
 		"successRate": "Rată de succes",
 		"accountType": "Tip cont",

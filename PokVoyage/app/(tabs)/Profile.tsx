@@ -28,7 +28,7 @@ export default function ProfileScreen() {
 		{ title: t("profile.notificationPreferences"), icon: <Ionicons name='notifications-outline' size={22} color='#fff' /> },
 		{ title: t("profile.securitySettings"), icon: <Ionicons name='lock-closed-outline' size={22} color='#fff' /> },
 		{ title: t("profile.helpSupport"), icon: <Ionicons name='help-circle-outline' size={22} color='#fff' /> },
-		{ title: t("profile.aboutQompyl"), icon: <MaterialCommunityIcons name='information-outline' size={22} color='#fff' /> },
+		{ title: t("profile.aboutPokVoyage"), icon: <MaterialCommunityIcons name='information-outline' size={22} color='#fff' /> },
 	];
 
 	return (
@@ -100,7 +100,7 @@ export default function ProfileScreen() {
 							key={index}
 							style={styles.settingItem}
 							onPress={() => {
-								if (option.title === t("profile.aboutQompyl")) {
+								if (option.title === t("profile.aboutPokVoyage")) {
 									setAboutVisible(true);
 								}
 							}}>
@@ -116,7 +116,7 @@ export default function ProfileScreen() {
 				</TouchableOpacity>
 			</ScrollView>
 
-			{/* About Qompyl Modal */}
+			{/* About PokVoyage Modal */}
 			<Modal visible={aboutVisible} transparent animationType='fade'>
 				<BlurView intensity={60} style={StyleSheet.absoluteFill} tint='dark' />
 				<View style={styles.aboutCentered}>
@@ -124,14 +124,14 @@ export default function ProfileScreen() {
 						<TouchableOpacity style={styles.aboutCloseBtn} onPress={() => setAboutVisible(false)}>
 							<Ionicons name='close' size={26} color='#fff' />
 						</TouchableOpacity>
-						<Text style={styles.aboutTitle}>About Qompyl</Text>
+						<Text style={styles.aboutTitle}>About PokVoyage</Text>
 						<ScrollView
 							style={styles.aboutScroll}
 							contentContainerStyle={{ paddingBottom: 8 }}
 							showsVerticalScrollIndicator={false}>
 							<Text style={styles.aboutParagraph}>
-								Qompyl was born from our founder Tyler Charton’s realization that strategy tools were built for institutions — not
-								people. After years immersed in markets, Tyler saw how existing platforms felt more like math worksheets than
+								PokVoyage was born from our founder Tyler Charton’s realization that strategy tools were built for institutions —
+								not people. After years immersed in markets, Tyler saw how existing platforms felt more like math worksheets than
 								decision tools. They ignored risk management, psychology, and real-world usability.
 							</Text>
 							<Text style={styles.aboutParagraph}>
@@ -139,7 +139,7 @@ export default function ProfileScreen() {
 								everyday traders reacting too late. Tyler believed there had to be a better way.
 							</Text>
 							<Text style={styles.aboutParagraph}>
-								Qompyl is that way: an intuitive, code-free platform that turns ideas into executable strategies, tests them
+								PokVoyage is that way: an intuitive, code-free platform that turns ideas into executable strategies, tests them
 								against real data, and helps users trade with clarity and confidence.
 							</Text>
 						</ScrollView>

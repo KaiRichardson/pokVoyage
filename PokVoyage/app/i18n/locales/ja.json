@@ -1,7 +1,7 @@
 {
 	"loading": "読み込み中...",
 	"onboarding": {
-		"title1": "Qompylへようこそ",
+		"title1": "PokVoyageへようこそ",
 		"title2": "戦略を構築",
 		"title3": "戦略をテスト",
 		"title4": "トレーディングまたは投資を開始",
@@ -22,7 +22,7 @@
 		"submit": "ログイン",
 		"noAccount": "アカウントをお持ちでない方は新規登録",
 		"skipForNow": "今はスキップ",
-		"subtitle": "Qompylアカウントにサインイン",
+		"subtitle": "PokVoyageアカウントにサインイン",
 		"google": "Googleで続ける",
 		"apple": "Appleで続ける"
 	},
@@ -34,7 +34,7 @@
 		"submit": "登録",
 		"passwordStrength": "パスワードの強度",
 		"alreadyAccount": "すでにアカウントをお持ちですか？ログイン",
-		"subtitle": "Qompylアカウントを作成",
+		"subtitle": "PokVoyageアカウントを作成",
 		"name": "氏名",
 		"tooWeak": "とても弱い",
 		"weak": "弱い",
@@ -61,7 +61,7 @@
 		"notificationPreferences": "通知設定",
 		"securitySettings": "セキュリティ設定",
 		"helpSupport": "ヘルプ・サポート",
-		"aboutQompyl": "Qompylについて",
+		"aboutPokVoyage": "PokVoyageについて",
 		"totalTrades": "総取引数",
 		"successRate": "成功率",
 		"accountType": "アカウントタイプ",

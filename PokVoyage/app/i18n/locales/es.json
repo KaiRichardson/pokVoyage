@@ -1,7 +1,7 @@
 {
 	"loading": "Cargando…",
 	"onboarding": {
-		"title1": "Bienvenido a Qompyl",
+		"title1": "Bienvenido a PokVoyage",
 		"title2": "Crea tu estrategia",
 		"title3": "Prueba tu estrategia",
 		"title4": "Empieza a operar o invertir",
@@ -22,7 +22,7 @@
 		"submit": "Entrar",
 		"noAccount": "¿No tienes cuenta? Regístrate",
 		"skipForNow": "Omitir por ahora",
-		"subtitle": "Inicia sesión en tu cuenta de Qompyl",
+		"subtitle": "Inicia sesión en tu cuenta de PokVoyage",
 		"google": "Continuar con Google",
 		"apple": "Continuar con Apple"
 	},
@@ -34,7 +34,7 @@
 		"submit": "Registrarse",
 		"passwordStrength": "Fortaleza de la contraseña",
 		"alreadyAccount": "¿Ya tienes cuenta? Inicia sesión",
-		"subtitle": "Crea tu cuenta de Qompyl",
+		"subtitle": "Crea tu cuenta de PokVoyage",
 		"name": "Nombre completo",
 		"tooWeak": "Muy débil",
 		"weak": "Débil",
@@ -61,7 +61,7 @@
 		"notificationPreferences": "Preferencias de notificación",
 		"securitySettings": "Configuración de seguridad",
 		"helpSupport": "Ayuda y soporte",
-		"aboutQompyl": "Acerca de Qompyl",
+		"aboutPokVoyage": "Acerca de PokVoyage",
 		"totalTrades": "Total de operaciones",
 		"successRate": "Tasa de éxito",
 		"accountType": "Tipo de cuenta",

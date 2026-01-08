@@ -11,8 +11,8 @@ export default function DrawerItems({ navigation }: DrawerContentComponentProps)
 
 	// Placeholder user data
 	const userData = {
-		name: "Tyler Charton",
-		email: "tyler.charton@qompyl.com",
+		name: "Kai Richardson",
+		email: "kai.richardson@pokvoyage.com",
 	};
 
 	const settingsOptions = [
@@ -20,7 +20,7 @@ export default function DrawerItems({ navigation }: DrawerContentComponentProps)
 		{ title: t("profile.notificationPreferences"), icon: <Ionicons name='notifications-outline' size={22} color='#fff' /> },
 		{ title: t("profile.securitySettings"), icon: <Ionicons name='lock-closed-outline' size={22} color='#fff' /> },
 		{ title: t("profile.helpSupport"), icon: <Ionicons name='help-circle-outline' size={22} color='#fff' /> },
-		{ title: t("profile.aboutQompyl"), icon: <MaterialCommunityIcons name='information-outline' size={22} color='#fff' /> },
+		{ title: t("profile.aboutPokVoyage"), icon: <MaterialCommunityIcons name='information-outline' size={22} color='#fff' /> },
 	];
 
 	return (
@@ -63,7 +63,7 @@ export default function DrawerItems({ navigation }: DrawerContentComponentProps)
 							key={index}
 							style={styles.settingItem}
 							onPress={() => {
-								if (option.title === t("profile.aboutQompyl")) {
+								if (option.title === t("profile.aboutPokVoyage")) {
 									// setAboutVisible(true);
 								}
 							}}>

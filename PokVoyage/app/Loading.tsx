@@ -39,8 +39,8 @@ export default function LoadingScreen() {
 	return (
 		<LinearGradient colors={Theme.dark.colorsDark.gradient as [string, string, string]} style={styles.container}>
 			<Animated.View style={[styles.contentContainer, { transform: [{ scale: scaleAnim }] }]}>
-				<Text style={styles.appName}>Qompyl</Text>
-				<Text style={styles.appTagline}>Trading Strategy Wizard</Text>
+				<Text style={styles.appName}>PokVoyage</Text>
+				<Text style={styles.appTagline}>Plan Your Dreams</Text>
 				<View style={styles.loaderContainer}>
 					<LottieView
 						source={require("../assets/animations/lottie_loading.json")}

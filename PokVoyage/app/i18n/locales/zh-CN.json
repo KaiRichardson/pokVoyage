@@ -1,7 +1,7 @@
 {
 	"loading": "加载中…",
 	"onboarding": {
-		"title1": "欢迎来到 Qompyl",
+		"title1": "欢迎来到 PokVoyage",
 		"title2": "构建您的策略",
 		"title3": "测试您的策略",
 		"title4": "开始交易或投资",
@@ -22,7 +22,7 @@
 		"submit": "登录",
 		"noAccount": "还没有账户？注册",
 		"skipForNow": "暂时跳过",
-		"subtitle": "登录您的 Qompyl 账户",
+		"subtitle": "登录您的 PokVoyage 账户",
 		"google": "使用 Google 登录",
 		"apple": "使用 Apple 登录"
 	},
@@ -34,7 +34,7 @@
 		"submit": "注册",
 		"passwordStrength": "密码强度",
 		"alreadyAccount": "已经有账户？登录",
-		"subtitle": "创建您的 Qompyl 账户",
+		"subtitle": "创建您的 PokVoyage 账户",
 		"name": "全名",
 		"tooWeak": "太弱",
 		"weak": "弱",
@@ -61,7 +61,7 @@
 		"notificationPreferences": "通知偏好",
 		"securitySettings": "安全设置",
 		"helpSupport": "帮助与支持",
-		"aboutQompyl": "关于 Qompyl",
+		"aboutPokVoyage": "关于 PokVoyage",
 		"totalTrades": "总交易数",
 		"successRate": "成功率",
 		"accountType": "账户类型",
