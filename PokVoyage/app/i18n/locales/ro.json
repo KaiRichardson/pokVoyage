@@ -1,0 +1,286 @@
+{
+	"loading": "Se încarcă…",
+	"onboarding": {
+		"title1": "Bine ai venit la Qompyl",
+		"title2": "Construiește-ți strategia",
+		"title3": "Testează-ți strategia",
+		"title4": "Începe tranzacționarea sau investiția",
+		"next": "Următorul",
+		"getStarted": "Începe",
+		"language": "Limbă",
+		"desc1": "Principalul creator de strategii de tranzacționare pentru toate nivelurile. Creează, testează și lansează strategii cu ușurință.",
+		"desc2": "Construiește-ți propriile strategii de tranzacționare cu interfața noastră simplă de tip drag-and-drop. Nu necesită codare pentru strategii profesionale.",
+		"desc3": "Testează-ți strategiile pe date de piață istorice pentru a valida performanța înainte de a risca bani reali.",
+		"desc4": "Lansează-ți strategiile pe piețe live și monitorizează performanța în timp real cu analize detaliate.",
+		"haveAccount": "Am deja un cont.",
+		"signIn": "Autentificare"
+	},
+	"login": {
+		"title": "Autentificare",
+		"email": "Email",
+		"password": "Parolă",
+		"submit": "Autentifică-te",
+		"noAccount": "Nu ai cont? Înregistrează-te",
+		"skipForNow": "Sari pentru acum",
+		"subtitle": "Connectează-te în contul tău Qompyl",
+		"google": "Continuă cu Google",
+		"apple": "Continuă cu Apple"
+	},
+	"signup": {
+		"title": "Înregistrare",
+		"email": "Email",
+		"password": "Parolă",
+		"confirmPassword": "Confirmă parola",
+		"submit": "Înregistrează-te",
+		"passwordStrength": "Securitatea parolei",
+		"alreadyAccount": "Ai deja cont? Autentifică-te",
+		"subtitle": "Creează contul tău Qompyl",
+		"name": "Nume complet",
+		"tooWeak": "Prea slabă",
+		"weak": "Slabă",
+		"fair": "Mediu",
+		"good": "Bună",
+		"strong": "Puternică"
+	},
+	"home": {
+		"title": "Acasă",
+		"welcome": "Bine ai venit, {{name}}!"
+	},
+	"navBar": {
+		"home": "Acasă",
+		"strategies": "Strategii",
+		"profile": "Profil"
+	},
+	"profile": {
+		"title": "Profil",
+		"email": "Email",
+		"logout": "Deconectare",
+		"noEmail": "Fără email",
+		"noName": "Fără nume",
+		"accountSettings": "Setări cont",
+		"notificationPreferences": "Preferințe notificări",
+		"securitySettings": "Setări securitate",
+		"helpSupport": "Ajutor & Suport",
+		"aboutQompyl": "Despre Qompyl",
+		"totalTrades": "Număr total tranzacții",
+		"successRate": "Rată de succes",
+		"accountType": "Tip cont",
+		"tradingPreferences": "Preferințe tranzacționare",
+		"favoriteStrategy": "Strategie preferată",
+		"riskLevel": "Nivel de risc",
+		"settings": "Setări",
+		"memberSince": "Membru din"
+	},
+	"timeframe": {
+		"title": "Interval de timp",
+		"next": "Următorul",
+		"infoTitle": "Ce este un interval de timp?",
+		"infoDesc": "Un interval de timp este durata fiecărei lumânări din grafic. De exemplu, un interval de 5 minute înseamnă că fiecare lumânare reprezintă 5 minute de acțiune de preț.",
+		"earlyTitle": "Intrare timpurie",
+		"earlyDesc": "Intră în tranzacții înainte de închiderea oficială. Util pentru a prinde mișcări timpurii, dar crește riscurile.",
+		"hourTitle": "Ore de tranzacționare",
+		"hourDesc": "Limitează tranzacționarea la ore specifice ale zilei. Ajută să te concentrezi pe perioadele cele mai active și profitabile.",
+		"errorTimeframe": "Te rog introdu un interval de timp valid",
+		"warning": {
+			"title": "Atenție!",
+			"description": "Intrarea timpurie poate fi riscantă. Tranzacțiile înainte de închiderea oficială pot cauza:",
+			"risk1": "Execuții invalide ale tranzacțiilor",
+			"risk2": "Mișcări neașteptate de preț",
+			"risk3": "Risc mai mare de pierdere",
+			"caution": "Procedează cu prudență și asigură-te că înțelegi riscurile.",
+			"cancel": "Anulează",
+			"proceed": "Continuă"
+		}
+	},
+	"strategyType": {
+		"tradingTitle": "Strategie de tranzacționare",
+		"tradingDesc": "O strategie ce vizează profitul din mișcări de preț pe termen scurt. Tranzacțiile pot dura de la câteva minute la zile.",
+		"tradingExample": "Exemplu: Day trading folosind intersecții de medii mobile pe grafice de 5 minute",
+		"investingTitle": "Strategie de investiție",
+		"investingDesc": "O strategie concentrată pe creștere pe termen lung. Investițiile pot dura săptămâni, luni sau ani.",
+		"investingExample": "Exemplu: Investiție bazată pe tendințe pe termen lung folosind grafice săptămânale",
+		"infoTitle": "Informații despre tipul de strategie",
+		"infoDesc": "Alege între tranzacționare (pe termen scurt) sau investiție (pe termen lung) în funcție de obiective și toleranța la risc.",
+		"tradingInfo": "Strategiile de tranzacționare sunt concepute pentru mișcări pe termen scurt, de obicei poziții de minute până la zile.",
+		"investingInfo": "Strategiile de investiție se concentrează pe creștere pe termen lung, de obicei poziții de săptămâni până la ani."
+	},
+	"direction": {
+		"longTitle": "Poziție Long",
+		"longDesc": "Tranzacționezi anticipând creșterea prețului. Câștigi când prețul crește.",
+		"shortTitle": "Poziție Short",
+		"shortDesc": "Tranzacționezi anticipând scăderea prețului. Câștigi când prețul scade."
+	},
+	"tradable": {
+		"stockTitle": "Acțiuni",
+		"stockDesc": "Titluri reprezentând proprietate într-o companie. Poți profita de creștere și de dividende.",
+		"etfTitle": "ETF",
+		"etfDesc": "Fonduri de investiții ce combină mai multe active. Cunoscut pentru diversificare și costuri reduse.",
+		"cryptoTitle": "Criptomonedă",
+		"cryptoDesc": "Active digitale bazate pe tehnologia blockchain. Cunoscut pentru volatilitate ridicată și tranzacționare 24/7.",
+		"forexTitle": "Forex",
+		"forexDesc": "Tranzacționarea perechilor valutare. Profită de fluctuațiile cursurilor de schimb."
+	},
+	"exposure": {
+		"title": "Expunere maximă",
+		"desc": "Controlează procentul sau suma maximă pe care strategia ta o poate investi într-o singură companie. Un mod simplu de a gestiona riscul și diversificarea.",
+		"glossary": "Vezi în glosar",
+		"learningCenter": "Vizitează centrul de învățare",
+		"PERCENTAGE": "Procentaj",
+		"SHARE_COUNT": "Număr de acțiuni",
+		"AMOUNT": "Sumă"
+	},
+	"homeMenu": {
+		"strategyType": "Tip strategie",
+		"direction": "Direcție",
+		"tradable": "Active tranzacționabile",
+		"timeframe": "Interval",
+		"execution": "Execuție",
+		"orders": "Ordine",
+		"exposure": "Expunere",
+		"completeSetup": "Finalizează configurarea",
+		"backtest": "Backtest",
+		"deploy": "Lansează",
+		"entry": "Condiții de intrare",
+		"addCondition": "Adaugă condiție"
+	},
+	"popups": {
+		"strategyLimits": "Limite strategie",
+		"strategyLimitsDesc": "Stabilește reguli suplimentare pentru strategia ta, de ex. cash minim de păstrat sau condiții de oprire. Ajută la automatizarea gestionării riscului și a disciplinei.",
+		"maxExposure": "Expunere maximă",
+		"maxExposureDesc": "Controlează procentul sau suma maximă pe care strategia ta o poate investi într-o singură companie. Un mod simplu de a gestiona riscul și diversificarea.",
+		"orderType": "Tip ordin",
+		"orderTypeDesc": "Tipul ordinului determină modul în care se execută tranzacțiile. Ordinele de piață se execută imediat la cel mai bun preț. Ordinele limită îți permit să setezi un preț, dar ar putea să nu se execute dacă piața nu-l atinge. Alege tipul care se potrivește strategiei și toleranței tale la risc.",
+		"allocationPerStock": "Alocare per acțiune:",
+		"retainAtLeast": "Păstrează cel puțin",
+		"percentCash": "% cash în cont",
+		"haltStrategyAfter": "Oprește strategia după:",
+		"days": "zile",
+		"trades": "tranzacții",
+		"moreOptions": "Mai multe opțiuni",
+		"next": "Următorul",
+		"back": "Înapoi",
+		"chooseAccount": "Alege contul:",
+		"accountSize": "Dimensiune cont",
+		"limitOrderExpires": "Ordinul limită expiră după",
+		"candlesticks": "lumânări",
+		"wantToTrade": "Vreau să tranzacționez:",
+		"comingSoon": "În curând",
+		"strategyType": {
+			"title": "Informații tip strategie",
+			"description": "Alege între tranzacționare (pe termen scurt) sau investiție (pe termen lung) în funcție de obiective și toleranță la risc.",
+			"tradingInfo": "Strategiile de tranzacționare sunt pentru mișcări pe termen scurt, poziții de la minute la zile.",
+			"investingInfo": "Strategiile de investiție se concentrează pe creștere pe termen lung, poziții de la săptămâni la ani.",
+			"header": "Tip strategie:",
+			"trading": "Tranzacționare",
+			"investing": "Investiție",
+			"next": "Următorul"
+		},
+		"distance": {
+			"title": "Distanță detectare setup",
+			"description": "Setează cât de devreme vrei să fii notificat despre posibile setup-uri. Te ajută să te pregătești mai bine.",
+			"warning": "O distanță mare oferă mai mult timp de pregătire, dar poate genera mai multe alerte false.",
+			"header": "Distanță la detectarea unui setup:",
+			"next": "Următorul"
+		},
+		"account": {
+			"title": "Selecție cont",
+			"description": "Alege contul pe care vrei să-l folosești pentru această strategie. Conturile pot avea permisiuni și niveluri de risc diferite.",
+			"warning": "Asigură-te că contul selectat are fonduri suficiente și permisiuni adecvate.",
+			"header": "Alege contul:",
+			"next": "Următorul"
+		},
+		"backtest": {
+			"title": "Efectuează backtest",
+			"description": "Testează strategia ta cu date istorice pentru a valida performanța înainte de a risca bani reali.",
+			"warning": "Performanța trecută nu garantează rezultate viitoare. Monitorizează strategia în permanență.",
+			"header": "Efectuează backtest:",
+			"next": "Începe backtest"
+		},
+		"deploy": {
+			"title": "Lansează strategia",
+			"description": "Lansează strategia pentru a tranzacționa live. Asigură-te că ai finalizat toți pașii de configurare și ai revizuit strategia.",
+			"warning": "Tranzacționarea implică riscuri. Începe cu poziții mici și monitorizează atent performanța.",
+			"header": "Lansează strategia:",
+			"next": "Începe tranzacționarea"
+		},
+		"complete": {
+			"title": "Configurare completă",
+			"description": "Configurarea strategiei tale este completă. Poți continua cu backtest sau cu lansarea acesteia.",
+			"nextSteps": "Alege următorul pas:",
+			"backtest": "Testează strategia pe date istorice",
+			"deploy": "Tranzacționează live",
+			"header": "Configurare completă!",
+			"scrollRight": "Derulează spre dreapta pentru mai multe opțiuni"
+		},
+		"direction": {
+			"header": "Care este direcția strategiei tale?",
+			"long": "Long",
+			"short": "Short",
+			"next": "Următorul"
+		},
+		"tradable": {
+			"search": "Caută",
+			"mostPopular": "Cele mai populare:",
+			"selected": "{{count}} {{type}} selectat(e)",
+			"next": "Următorul",
+			"add": "Adaugă"
+		},
+		"technical": {
+			"search": "Caută",
+			"mostPopular": "Cele mai populare:",
+			"next": "Următorul"
+		},
+		"execution": {
+			"header": "Dacă se detectează un setup:",
+			"alert": "Anunță-mă",
+			"execute": "Execută tranzacția",
+			"next": "Următorul"
+		},
+		"orders": {
+			"chooseAccount": "Alege contul:",
+			"orderType": "Tip ordin:",
+			"accountSize": "Dimensiune cont",
+			"moreOptions": "Mai multe opțiuni",
+			"next": "Următorul",
+			"back": "Înapoi",
+			"add": "Adaugă",
+			"limitOrderExpires": "Ordinul limită expiră după",
+			"candlesticks": "lumânări",
+			"useMargin": "Folosește marjă",
+			"marginWarning": "Folosirea marjei crește riscul și nu este recomandată"
+		},
+		"orderTypeInfo": {
+			"title": "Tip ordin",
+			"description": "Tipurile de ordine determină cum se execută tranzacțiile. Ordinele de piață se execută imediat la cel mai bun preț, iar ordinele limită îți permit să setezi un preț, dar pot să nu fie executate dacă piața nu îl atinge. Alege tipul care se potrivește strategiei tale și toleranței la risc.",
+			"viewGlossary": "Vezi în glosar",
+			"visitLearning": "Vizitează centrul de învățare"
+		}
+	},
+	"setup": {
+		"distanceTitle": "Distanță detectare setup",
+		"distanceDesc": "Definește cât de devreme vrei să fii notificat asupra setup-urilor potențiale",
+		"chooseAccount": "Alege contul",
+		"chooseAccountDesc": "Selectează contul pe care vrei să-l folosești pentru această strategie",
+		"backtest": "Backtest",
+		"backtestDesc": "Testează-ți strategia cu date istorice pentru a valida performanța",
+		"deploy": "Lansează",
+		"deployDesc": "Lansează strategia în piețe live",
+		"scrollRight": "Derulează spre dreapta pentru mai multe opțiuni",
+		"completeTitle": "Configurare completă",
+		"completeDesc": "Configurarea este completă. Poți continua cu backtest sau lansare."
+	},
+	"api": {
+		"timeframe": {
+			"MINUTE": "Minut",
+			"DAY": "Zi",
+			"WEEK": "Săptămână",
+			"MONTH": "Lună"
+		},
+		"exposure": {
+			"PERCENTAGE": "Procentaj",
+			"SHARE_COUNT": "Număr de acțiuni",
+			"AMOUNT": "Sumă"
+		}
+	},
+	"scrollRight": "Derulați spre dreapta pentru mai multe opțiuni"
+}

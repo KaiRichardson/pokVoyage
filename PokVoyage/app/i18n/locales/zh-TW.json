@@ -1,0 +1,286 @@
+{
+	"loading": "載入中…",
+	"onboarding": {
+		"title1": "歡迎來到 Qompyl",
+		"title2": "建立您的策略",
+		"title3": "測試您的策略",
+		"title4": "開始交易或投資",
+		"next": "下一步",
+		"getStarted": "開始使用",
+		"language": "語言",
+		"desc1": "適用於各種技能等級的領先交易策略建立平台。輕鬆建立、測試和部署交易策略。",
+		"desc2": "使用我們簡單的拖放介面建立您自己的交易策略。專業策略不需要編碼。",
+		"desc3": "使用歷史市場數據測試您的策略，在投入真實資金之前驗證其表現。",
+		"desc4": "將策略部署至實盤市場，並使用詳細分析實時監控其表現。",
+		"haveAccount": "我已經有一個帳戶。",
+		"signIn": "登入"
+	},
+	"login": {
+		"title": "登入",
+		"email": "電子郵件",
+		"password": "密碼",
+		"submit": "登入",
+		"noAccount": "還沒有帳戶？註冊",
+		"skipForNow": "暫時跳過",
+		"subtitle": "登入您的 Qompyl 帳戶",
+		"google": "以 Google 登入",
+		"apple": "以 Apple 登入"
+	},
+	"signup": {
+		"title": "註冊",
+		"email": "電子郵件",
+		"password": "密碼",
+		"confirmPassword": "確認密碼",
+		"submit": "註冊",
+		"passwordStrength": "密碼強度",
+		"alreadyAccount": "已經有帳戶？登入",
+		"subtitle": "建立您的 Qompyl 帳戶",
+		"name": "全名",
+		"tooWeak": "太弱",
+		"weak": "弱",
+		"fair": "一般",
+		"good": "良好",
+		"strong": "強"
+	},
+	"home": {
+		"title": "首頁",
+		"welcome": "歡迎, {{name}}！"
+	},
+	"navBar": {
+		"home": "首頁",
+		"strategies": "策略",
+		"profile": "個人資料"
+	},
+	"profile": {
+		"title": "個人資料",
+		"email": "電子郵件",
+		"logout": "登出",
+		"noEmail": "無電子郵件",
+		"noName": "無名稱",
+		"accountSettings": "帳戶設定",
+		"notificationPreferences": "通知偏好",
+		"securitySettings": "安全設定",
+		"helpSupport": "幫助與支援",
+		"aboutQompyl": "關於 Qompyl",
+		"totalTrades": "總交易次數",
+		"successRate": "成功率",
+		"accountType": "帳戶類型",
+		"tradingPreferences": "交易偏好",
+		"favoriteStrategy": "最愛策略",
+		"riskLevel": "風險等級",
+		"settings": "設定",
+		"memberSince": "會員自"
+	},
+	"timeframe": {
+		"title": "時間範圍",
+		"next": "下一步",
+		"infoTitle": "什麼是時間範圍？",
+		"infoDesc": "時間範圍是圖表中每根燭線所代表的時間。例如，5 分鐘時間範圍表示每根燭線代表 5 分鐘的價格變動。",
+		"earlyTitle": "提前進場",
+		"earlyDesc": "在官方結束時間前進場交易。可以捕捉早期價格波動，但風險較高。",
+		"hourTitle": "交易時間",
+		"hourDesc": "將交易限制在特定的小時內。這有助於您專注於最活躍且最具盈利潛力的時段。",
+		"errorTimeframe": "請輸入有效的時間範圍",
+		"warning": {
+			"title": "注意！",
+			"description": "提前進場可能具有潛在風險。在官方結束時間前進場可能導致：",
+			"risk1": "失效的交易執行",
+			"risk2": "意外的價格波動",
+			"risk3": "較高的損失風險",
+			"caution": "請謹慎操作，並確保您理解相關風險。",
+			"cancel": "取消",
+			"proceed": "繼續"
+		}
+	},
+	"strategyType": {
+		"tradingTitle": "交易策略",
+		"tradingDesc": "旨在從短期價格波動中獲利。一筆交易可能持續幾分鐘到幾天。",
+		"tradingExample": "範例：使用 5 分鐘圖表上的均線交叉進行當日交易",
+		"investingTitle": "投資策略",
+		"investingDesc": "專注於長期增長。投資可能持續數週、數月或數年。",
+		"investingExample": "範例：使用週圖根據長期趨勢進行投資",
+		"infoTitle": "策略類型資訊",
+		"infoDesc": "根據您的目標和風險承受能力，選擇交易（短期）或投資（長期）。",
+		"tradingInfo": "交易策略針對短期市場波動，通常持倉時間為幾分鐘到幾天。",
+		"investingInfo": "投資策略專注於長期增長，通常持倉時間為數週到數年。"
+	},
+	"direction": {
+		"longTitle": "多頭持倉",
+		"longDesc": "預期價格上漲時進場交易。價格上漲時獲利。",
+		"shortTitle": "空頭持倉",
+		"shortDesc": "預期價格下跌時進場交易。價格下跌時獲利。"
+	},
+	"tradable": {
+		"stockTitle": "股票",
+		"stockDesc": "代表公司所有權的證券。您可以在公司成長和股息中獲利。",
+		"etfTitle": "ETF",
+		"etfDesc": "結合多種資產的投資基金。以分散風險及低成本著稱。",
+		"cryptoTitle": "加密貨幣",
+		"cryptoDesc": "基於區塊鏈技術的數字資產。以高波動性及 24/7 交易著稱。",
+		"forexTitle": "外匯",
+		"forexDesc": "貨幣對交易。從匯率波動中獲利。"
+	},
+	"exposure": {
+		"title": "最大敞口",
+		"desc": "控制策略可投入單一公司的最大百分比或金額。這是管理風險與分散投資的簡易方式。",
+		"glossary": "查看術語表",
+		"learningCenter": "造訪學習中心",
+		"PERCENTAGE": "百分比",
+		"SHARE_COUNT": "股票數量",
+		"AMOUNT": "金額"
+	},
+	"homeMenu": {
+		"strategyType": "策略類型",
+		"direction": "方向",
+		"tradable": "可交易標的",
+		"timeframe": "時間範圍",
+		"execution": "執行方式",
+		"orders": "訂單",
+		"exposure": "敞口",
+		"completeSetup": "完成設定",
+		"backtest": "回測",
+		"deploy": "部署",
+		"entry": "進場條件",
+		"addCondition": "新增條件"
+	},
+	"popups": {
+		"strategyLimits": "策略限制",
+		"strategyLimitsDesc": "為您的策略設置額外規則，例如保留最低現金或停止交易的條件，有助於自動化風險管理與紀律性。",
+		"maxExposure": "最大敞口",
+		"maxExposureDesc": "控制策略可投入單一公司的最大百分比或金額。這是管理風險與分散投資的簡易方式。",
+		"orderType": "訂單類型",
+		"orderTypeDesc": "訂單類型決定交易如何被執行。市價訂單會以最佳價格立即成交。限價單可設定特定價格，但若市場未達該價格可能無法成交。請選擇符合您策略與風險承受度的類型。",
+		"allocationPerStock": "每股配置：",
+		"retainAtLeast": "至少保留",
+		"percentCash": "％現金於帳戶中",
+		"haltStrategyAfter": "達成後停止策略：",
+		"days": "天",
+		"trades": "筆交易",
+		"moreOptions": "更多選項",
+		"next": "下一步",
+		"back": "返回",
+		"chooseAccount": "選擇帳戶：",
+		"accountSize": "帳戶規模",
+		"limitOrderExpires": "限價訂單有效期至",
+		"candlesticks": "根燭線",
+		"wantToTrade": "我想交易：",
+		"comingSoon": "即將推出",
+		"strategyType": {
+			"title": "策略類型資訊",
+			"description": "根據您的目標與風險承受度，選擇交易（短期）或投資（長期）。",
+			"tradingInfo": "交易策略針對短期市場波動，通常持倉時間為幾分鐘到幾天。",
+			"investingInfo": "投資策略專注於長期增長，通常持倉時間為數週到數年。",
+			"header": "策略類型：",
+			"trading": "交易",
+			"investing": "投資",
+			"next": "下一步"
+		},
+		"distance": {
+			"title": "偵測交易設定的距離",
+			"description": "設定您希望在交易設定出現前提前多久收到通知，有助於您提前準備。",
+			"warning": "設定較大的距離可爭取更多準備時間，但可能導致更多誤判訊號。",
+			"header": "偵測到交易設定時的距離：",
+			"next": "下一步"
+		},
+		"account": {
+			"title": "帳戶選擇",
+			"description": "選擇要用於此策略的帳戶。不同帳戶可能具有不同的交易權限與風險級別。",
+			"warning": "請確保所選帳戶有足夠資金及適當權限。",
+			"header": "選擇帳戶：",
+			"next": "下一步"
+		},
+		"backtest": {
+			"title": "執行回測",
+			"description": "使用歷史數據測試策略，以驗證其表現，再進行真實資金操作。",
+			"warning": "過去的表現不代表未來。請持續監控策略。",
+			"header": "執行回測：",
+			"next": "開始回測"
+		},
+		"deploy": {
+			"title": "部署策略",
+			"description": "將策略部署至實盤市場。請確認您已完成所有設定並徹底檢查策略。",
+			"warning": "交易有風險。請從小額持倉開始並密切監控表現。",
+			"header": "部署策略：",
+			"next": "開始交易"
+		},
+		"complete": {
+			"title": "設定完成",
+			"description": "您的策略設定已完成。現在可進行回測或部署。",
+			"nextSteps": "選擇下一步：",
+			"backtest": "使用歷史數據測試策略",
+			"deploy": "在實盤市場交易",
+			"header": "設定完成！",
+			"scrollRight": "向右滑查看更多選項"
+		},
+		"direction": {
+			"header": "您的策略方向為？",
+			"long": "多頭",
+			"short": "空頭",
+			"next": "下一步"
+		},
+		"tradable": {
+			"search": "搜尋",
+			"mostPopular": "最受歡迎：",
+			"selected": "{{count}} 個 {{type}} 已選",
+			"next": "下一步",
+			"add": "新增"
+		},
+		"technical": {
+			"search": "搜尋",
+			"mostPopular": "最受歡迎：",
+			"next": "下一步"
+		},
+		"execution": {
+			"header": "若偵測到交易設定：",
+			"alert": "通知我",
+			"execute": "執行交易",
+			"next": "下一步"
+		},
+		"orders": {
+			"chooseAccount": "選擇帳戶：",
+			"orderType": "訂單類型：",
+			"accountSize": "帳戶規模",
+			"moreOptions": "更多選項",
+			"next": "下一步",
+			"back": "返回",
+			"add": "新增",
+			"limitOrderExpires": "限價訂單有效期至",
+			"candlesticks": "根燭線",
+			"useMargin": "使用保證金",
+			"marginWarning": "使用保證金會增加風險，不建議使用"
+		},
+		"orderTypeInfo": {
+			"title": "訂單類型",
+			"description": "訂單類型決定交易如何被執行。市價訂單會以最佳價格立即成交；限價單允許您設定價格，但若市場未達該價格，可能不會成交。請選擇符合您策略與風險承受度的類型。",
+			"viewGlossary": "查看術語表",
+			"visitLearning": "造訪學習中心"
+		}
+	},
+	"setup": {
+		"distanceTitle": "設置偵測距離",
+		"distanceDesc": "定義您希望在偵測到潛在設置前提前多久收到通知",
+		"chooseAccount": "選擇帳戶",
+		"chooseAccountDesc": "選擇您想用於該策略的帳戶",
+		"backtest": "回測",
+		"backtestDesc": "使用歷史數據測試策略以驗證其表現",
+		"deploy": "部署",
+		"deployDesc": "將策略部署至實盤市場",
+		"scrollRight": "向右滑查看更多選項",
+		"completeTitle": "完成設置",
+		"completeDesc": "您的設置已完成。現在可進行回測或部署。"
+	},
+	"api": {
+		"timeframe": {
+			"MINUTE": "分鐘",
+			"DAY": "天",
+			"WEEK": "週",
+			"MONTH": "月"
+		},
+		"exposure": {
+			"PERCENTAGE": "百分比",
+			"SHARE_COUNT": "股票數量",
+			"AMOUNT": "金額"
+		}
+	},
+	"scrollRight": "向右滾動查看更多選項"
+}

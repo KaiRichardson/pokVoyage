@@ -1,0 +1,286 @@
+{
+	"loading": "Cargando…",
+	"onboarding": {
+		"title1": "Bienvenido a Qompyl",
+		"title2": "Crea tu estrategia",
+		"title3": "Prueba tu estrategia",
+		"title4": "Empieza a operar o invertir",
+		"next": "Siguiente",
+		"getStarted": "Comenzar",
+		"language": "Idioma",
+		"desc1": "El principal creador de estrategias de trading para todos los niveles. Crea, prueba y despliega estrategias con facilidad.",
+		"desc2": "Crea tus propias estrategias de trading con nuestra sencilla interfaz de arrastrar y soltar. No se requiere programación para estrategias profesionales.",
+		"desc3": "Prueba tus estrategias con datos históricos del mercado para validar su rendimiento antes de arriesgar dinero real.",
+		"desc4": "Despliega tus estrategias en mercados en vivo y supervisa su rendimiento en tiempo real con análisis detallados.",
+		"haveAccount": "Ya tengo una cuenta.",
+		"signIn": "Iniciar sesión"
+	},
+	"login": {
+		"title": "Iniciar sesión",
+		"email": "Correo electrónico",
+		"password": "Contraseña",
+		"submit": "Entrar",
+		"noAccount": "¿No tienes cuenta? Regístrate",
+		"skipForNow": "Omitir por ahora",
+		"subtitle": "Inicia sesión en tu cuenta de Qompyl",
+		"google": "Continuar con Google",
+		"apple": "Continuar con Apple"
+	},
+	"signup": {
+		"title": "Regístrate",
+		"email": "Correo electrónico",
+		"password": "Contraseña",
+		"confirmPassword": "Confirmar contraseña",
+		"submit": "Registrarse",
+		"passwordStrength": "Fortaleza de la contraseña",
+		"alreadyAccount": "¿Ya tienes cuenta? Inicia sesión",
+		"subtitle": "Crea tu cuenta de Qompyl",
+		"name": "Nombre completo",
+		"tooWeak": "Muy débil",
+		"weak": "Débil",
+		"fair": "Media",
+		"good": "Buena",
+		"strong": "Fuerte"
+	},
+	"home": {
+		"title": "Inicio",
+		"welcome": "¡Bienvenido, {{name}}!"
+	},
+	"navBar": {
+		"home": "Inicio",
+		"strategies": "Estrategias",
+		"profile": "Perfil"
+	},
+	"profile": {
+		"title": "Perfil",
+		"email": "Correo electrónico",
+		"logout": "Cerrar sesión",
+		"noEmail": "Sin correo",
+		"noName": "Sin nombre",
+		"accountSettings": "Configuración de cuenta",
+		"notificationPreferences": "Preferencias de notificación",
+		"securitySettings": "Configuración de seguridad",
+		"helpSupport": "Ayuda y soporte",
+		"aboutQompyl": "Acerca de Qompyl",
+		"totalTrades": "Total de operaciones",
+		"successRate": "Tasa de éxito",
+		"accountType": "Tipo de cuenta",
+		"tradingPreferences": "Preferencias de trading",
+		"favoriteStrategy": "Estrategia favorita",
+		"riskLevel": "Nivel de riesgo",
+		"settings": "Ajustes",
+		"memberSince": "Miembro desde"
+	},
+	"timeframe": {
+		"title": "Intervalo de tiempo",
+		"next": "Siguiente",
+		"infoTitle": "¿Qué es un intervalo de tiempo?",
+		"infoDesc": "Un intervalo es la duración de cada vela en tu gráfico. Por ejemplo, un intervalo de 5 minutos significa que cada vela representa 5 minutos de acción de precio.",
+		"earlyTitle": "Entrada anticipada",
+		"earlyDesc": "Entrar en operaciones antes del cierre oficial. Puede ser útil para capturar movimientos tempranos, pero conlleva mayor riesgo.",
+		"hourTitle": "Horas de trading",
+		"hourDesc": "Limita tu trading a horas específicas del día. Esto te ayuda a concentrarte en los periodos más activos y rentables.",
+		"errorTimeframe": "Por favor, ingresa un intervalo válido",
+		"warning": {
+			"title": "¡Atención!",
+			"description": "La entrada anticipada puede ser peligrosa. Entrar antes del cierre oficial puede provocar:",
+			"risk1": "Ejecuciones de trading inválidas",
+			"risk2": "Movimientos de precio inesperados",
+			"risk3": "Mayor riesgo de pérdidas",
+			"caution": "Procede con precaución y asegúrate de entender los riesgos.",
+			"cancel": "Cancelar",
+			"proceed": "Continuar"
+		}
+	},
+	"strategyType": {
+		"tradingTitle": "Estrategia de trading",
+		"tradingDesc": "Una estrategia que busca beneficiarse de movimientos de precio a corto plazo. Las operaciones pueden durar desde minutos hasta días.",
+		"tradingExample": "Ejemplo: Day trading usando cruces de medias móviles en gráficos de 5 minutos",
+		"investingTitle": "Estrategia de inversión",
+		"investingDesc": "Una estrategia enfocada en el crecimiento a largo plazo. Las inversiones pueden durar semanas, meses o años.",
+		"investingExample": "Ejemplo: Invertir basándose en tendencias a largo plazo usando gráficos semanales",
+		"infoTitle": "Información del tipo de estrategia",
+		"infoDesc": "Elige entre trading (corto plazo) o inversión (largo plazo) según tus objetivos y tolerancia al riesgo.",
+		"tradingInfo": "Las estrategias de trading están diseñadas para movimientos de mercado a corto plazo, típicamente con posiciones de minutos a días.",
+		"investingInfo": "Las estrategias de inversión se centran en el crecimiento a largo plazo, usualmente con posiciones de semanas a años."
+	},
+	"direction": {
+		"longTitle": "Posición larga",
+		"longDesc": "Operar esperando que el precio suba. Ganas cuando el precio sube.",
+		"shortTitle": "Posición corta",
+		"shortDesc": "Operar esperando que el precio baje. Ganas cuando el precio baja."
+	},
+	"tradable": {
+		"stockTitle": "Acciones",
+		"stockDesc": "Valores que representan propiedad en una empresa. Puedes ganar a través del crecimiento y dividendos.",
+		"etfTitle": "ETF",
+		"etfDesc": "Fondos de inversión que combinan múltiples activos. Conocidos por su diversificación y bajos costos.",
+		"cryptoTitle": "Criptomoneda",
+		"cryptoDesc": "Activos digitales basados en tecnología blockchain. Conocidos por su alta volatilidad y trading 24/7.",
+		"forexTitle": "Forex",
+		"forexDesc": "Trading de pares de divisas. Ganas gracias a las fluctuaciones de tipos de cambio."
+	},
+	"exposure": {
+		"title": "Exposición máxima",
+		"desc": "Controla el porcentaje máximo o monto que tu estrategia puede invertir en una sola empresa. Una forma sencilla de gestionar el riesgo y diversificar los inversiones.",
+		"glossary": "Ver en glosario",
+		"learningCenter": "Visitar centro de aprendizaje",
+		"PERCENTAGE": "Porcentaje",
+		"SHARE_COUNT": "Número de acciones",
+		"AMOUNT": "Cantidad"
+	},
+	"homeMenu": {
+		"strategyType": "Tipo de estrategia",
+		"direction": "Dirección",
+		"tradable": "Activos negociables",
+		"timeframe": "Intervalo",
+		"execution": "Ejecución",
+		"orders": "Órdenes",
+		"exposure": "Exposición",
+		"completeSetup": "Completar configuración",
+		"backtest": "Backtesting",
+		"deploy": "Desplegar",
+		"entry": "Condiciones de entrada",
+		"addCondition": "Agregar condición"
+	},
+	"popups": {
+		"strategyLimits": "Límites de estrategia",
+		"strategyLimitsDesc": "Establece reglas adicionales para tu estrategia, como efectivo mínimo a mantener o condiciones para detener operaciones. Ayuda a automatizar la gestión del riesgo y disciplina.",
+		"maxExposure": "Exposición máxima",
+		"maxExposureDesc": "Controla el porcentaje máximo o monto que tu estrategia puede invertir en una sola empresa. Una forma sencilla de gestionar el riesgo y diversificar las inversiones.",
+		"orderType": "Tipo de orden",
+		"orderTypeDesc": "El tipo de orden determina cómo se ejecutan tus operaciones. Las órdenes de mercado se ejecutan inmediatamente al mejor precio disponible. Las órdenes limitadas te permiten establecer un precio específico, pero podrían no ejecutarse si el mercado no lo alcanza. Elige el tipo adecuado para tu estrategia y tolerancia al riesgo.",
+		"allocationPerStock": "Asignación por acción:",
+		"retainAtLeast": "Mantener al menos",
+		"percentCash": "% de efectivo en la cuenta",
+		"haltStrategyAfter": "Detener estrategia después de:",
+		"days": "días",
+		"trades": "operaciones",
+		"moreOptions": "Más opciones",
+		"next": "Siguiente",
+		"back": "Atrás",
+		"chooseAccount": "Seleccionar cuenta:",
+		"accountSize": "Tamaño de la cuenta",
+		"limitOrderExpires": "La orden limitada expira después de",
+		"candlesticks": "velas",
+		"wantToTrade": "Quiero operar:",
+		"comingSoon": "Próximamente",
+		"strategyType": {
+			"title": "Información del tipo de estrategia",
+			"description": "Elige entre trading (corto plazo) o inversión (largo plazo) según tus objetivos y tolerancia al riesgo.",
+			"tradingInfo": "Las estrategias de trading están diseñadas para movimientos de mercado a corto plazo, con posiciones de minutos a días.",
+			"investingInfo": "Las estrategias de inversión se centran en el crecimiento a largo plazo, con posiciones de semanas a años.",
+			"header": "Tipo de estrategia:",
+			"trading": "Trading",
+			"investing": "Inversión",
+			"next": "Siguiente"
+		},
+		"distance": {
+			"title": "Distancia de detección de setups",
+			"description": "Define con cuánta antelación deseas ser notificado sobre setups potenciales. Te ayuda a prepararte mejor.",
+			"warning": "Una distancia mayor ofrece más tiempo de preparación, pero puede generar más señales falsas.",
+			"header": "Distancia al detectar un setup:",
+			"next": "Siguiente"
+		},
+		"account": {
+			"title": "Selección de cuenta",
+			"description": "Elige la cuenta que deseas usar para esta estrategia. Las cuentas pueden tener permisos y niveles de riesgo diferentes.",
+			"warning": "Asegúrate de que la cuenta seleccionada tenga fondos adecuados y permisos apropiados.",
+			"header": "Seleccionar cuenta:",
+			"next": "Siguiente"
+		},
+		"backtest": {
+			"title": "Realizar backtest",
+			"description": "Prueba tu estrategia con datos históricos para validar su rendimiento antes de arriesgar dinero real.",
+			"warning": "El rendimiento pasado no garantiza resultados futuros. Supervisa siempre tu estrategia.",
+			"header": "Realizar backtest:",
+			"next": "Iniciar backtest"
+		},
+		"deploy": {
+			"title": "Desplegar estrategia",
+			"description": "Lanza tu estrategia para operar en vivo. Asegúrate de haber completado todos los pasos de configuración y revisado tu estrategia.",
+			"warning": "El trading conlleva riesgos. Comienza con posiciones pequeñas y supervisa el rendimiento cuidadosamente.",
+			"header": "Desplegar estrategia:",
+			"next": "Comenzar a operar"
+		},
+		"complete": {
+			"title": "Configuración terminada",
+			"description": "Tu configuración está completa. Ahora puedes pasar al backtest o al despliegue.",
+			"nextSteps": "Elige tu siguiente paso:",
+			"backtest": "Probar estrategia con datos históricos",
+			"deploy": "Operar en mercados en vivo",
+			"header": "¡Configuración terminada!",
+			"scrollRight": "Desplázate a la derecha para ver más opciones"
+		},
+		"direction": {
+			"header": "¿Cuál es la dirección de tu estrategia?",
+			"long": "Largo",
+			"short": "Corto",
+			"next": "Siguiente"
+		},
+		"tradable": {
+			"search": "Buscar",
+			"mostPopular": "Más populares:",
+			"selected": "{{count}} {{type}} seleccionado(s)",
+			"next": "Siguiente",
+			"add": "Agregar"
+		},
+		"technical": {
+			"search": "Buscar",
+			"mostPopular": "Más populares:",
+			"next": "Siguiente"
+		},
+		"execution": {
+			"header": "Si se detecta un setup:",
+			"alert": "Avisarme",
+			"execute": "Ejecutar operación",
+			"next": "Siguiente"
+		},
+		"orders": {
+			"chooseAccount": "Seleccionar cuenta:",
+			"orderType": "Tipo de orden:",
+			"accountSize": "Tamaño de la cuenta",
+			"moreOptions": "Más opciones",
+			"next": "Siguiente",
+			"back": "Atrás",
+			"add": "Agregar",
+			"limitOrderExpires": "La orden limitada expira después de",
+			"candlesticks": "velas",
+			"useMargin": "Usar margen",
+			"marginWarning": "Operar con margen aumenta el riesgo y no se recomienda"
+		},
+		"orderTypeInfo": {
+			"title": "Tipo de orden",
+			"description": "Los tipos de orden determinan cómo se ejecutan tus operaciones. Las órdenes de mercado se ejecutan inmediatamente al mejor precio; las órdenes limitadas te permiten establecer un precio, pero podrían no ejecutarse si el mercado no lo alcanza. Elige el que se ajuste a tu estrategia y tolerancia al riesgo.",
+			"viewGlossary": "Ver en glosario",
+			"visitLearning": "Visitar centro de aprendizaje"
+		}
+	},
+	"setup": {
+		"distanceTitle": "Distancia de detección de setups",
+		"distanceDesc": "Define con cuánta antelación deseas ser notificado sobre setups potenciales",
+		"chooseAccount": "Seleccionar cuenta",
+		"chooseAccountDesc": "Selecciona la cuenta que deseas usar para esta estrategia",
+		"backtest": "Backtesting",
+		"backtestDesc": "Prueba tu estrategia con datos históricos para validar su rendimiento",
+		"deploy": "Desplegar",
+		"deployDesc": "Lanza tu estrategia en mercados en vivo",
+		"scrollRight": "Desplázate a la derecha para ver más opciones",
+		"completeTitle": "Configuración terminada",
+		"completeDesc": "Tu configuración está completa. Ahora puedes pasar al backtest o al despliegue."
+	},
+	"api": {
+		"timeframe": {
+			"MINUTE": "Minuto",
+			"DAY": "Día",
+			"WEEK": "Semana",
+			"MONTH": "Mes"
+		},
+		"exposure": {
+			"PERCENTAGE": "Porcentaje",
+			"SHARE_COUNT": "Número de acciones",
+			"AMOUNT": "Cantidad"
+		}
+	},
+	"scrollRight": "Desplácese hacia la derecha para ver más opciones"
+}

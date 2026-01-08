@@ -1,0 +1,294 @@
+{
+	"loading": "Lädt…",
+	"onboarding": {
+		"title1": "Willkommen bei Qompyl",
+		"title2": "Erstelle Deine Strategie",
+		"title3": "Teste Deine Strategie",
+		"title4": "Beginne mit Trading oder Investieren",
+		"next": "Weiter",
+		"getStarted": "Loslegen",
+		"language": "Sprache",
+		"desc1": "Der führende Trading-Strategie-Builder für alle Erfahrungsstufen. Erstelle, teste und setze Strategien mit Leichtigkeit um.",
+		"desc2": "Erstelle deine eigenen Trading‑Strategien mit unserer einfachen Drag‑&‑Drop‑Oberfläche. Für professionelle Strategien ist kein Code nötig.",
+		"desc3": "Teste deine Strategien anhand historischer Marktdaten, um die Performance zu validieren, bevor du echtes Geld einsetzt.",
+		"desc4": "Setze deine Strategien in Live‑Märkte um und überwache die Performance in Echtzeit mit detaillierten Analysen.",
+		"haveAccount": "Ich habe bereits ein Konto.",
+		"signIn": "Anmelden"
+	},
+	"login": {
+		"title": "Anmelden",
+		"email": "E‑Mail",
+		"password": "Passwort",
+		"submit": "Anmelden",
+		"noAccount": "Noch kein Konto? Registrieren",
+		"skipForNow": "Für jetzt überspringen",
+		"subtitle": "Melde dich in deinem Qompyl‑Konto an",
+		"google": "Mit Google fortfahren",
+		"apple": "Mit Apple fortfahren"
+	},
+	"signup": {
+		"title": "Registrieren",
+		"email": "E‑Mail",
+		"password": "Passwort",
+		"confirmPassword": "Passwort bestätigen",
+		"submit": "Registrieren",
+		"passwordStrength": "Passwortstärke",
+		"alreadyAccount": "Schon ein Konto? Anmelden",
+		"subtitle": "Erstelle dein Qompyl‑Konto",
+		"name": "Vollständiger Name",
+		"tooWeak": "Zu schwach",
+		"weak": "Schwach",
+		"fair": "Mittel",
+		"good": "Gut",
+		"strong": "Stark"
+	},
+	"home": {
+		"title": "Startseite",
+		"welcome": "Willkommen, {{name}}!"
+	},
+	"navBar": {
+		"home": "Startseite",
+		"strategies": "Strategien",
+		"profile": "Profil"
+	},
+	"profile": {
+		"title": "Profil",
+		"email": "E‑Mail",
+		"logout": "Abmelden",
+		"noEmail": "Keine E‑Mail",
+		"noName": "Kein Name",
+		"accountSettings": "Kontoeinstellungen",
+		"notificationPreferences": "Benachrichtigungseinstellungen",
+		"securitySettings": "Sicherheitseinstellungen",
+		"helpSupport": "Hilfe & Support",
+		"aboutQompyl": "Über Qompyl",
+		"totalTrades": "Gesamtzahl Trades",
+		"successRate": "Erfolgsrate",
+		"accountType": "Kontotyp",
+		"tradingPreferences": "Trading‑Präferenzen",
+		"favoriteStrategy": "Lieblingsstrategie",
+		"riskLevel": "Risikostufe",
+		"settings": "Einstellungen",
+		"memberSince": "Mitglied seit"
+	},
+	"timeframe": {
+		"title": "Zeitrahmen",
+		"next": "Weiter",
+		"infoTitle": "Was ist ein Zeitrahmen?",
+		"infoDesc": "Ein Zeitrahmen ist die Dauer jeder Kerze in deinem Chart. Ein 5‑Minuten‑Zeitrahmen bedeutet z. B., dass jede Kerze 5 Minuten Kursaktion repräsentiert.",
+		"earlyTitle": "Früher Trade‑Einstieg",
+		"earlyDesc": "Starte Trades vor dem offiziellen Schlusszeitpunkt. Kann hilfreich sein, um frühe Kursbewegungen zu nutzen, birgt aber erhöhtes Risiko.",
+		"hourTitle": "Handelszeiten",
+		"hourDesc": "Beschränke dein Trading auf bestimmte Tageszeiten. So kannst du dich auf die aktivsten und profitabelsten Phasen konzentrieren.",
+		"errorTimeframe": "Bitte gib einen gültigen Zeitrahmen ein",
+		"units": {
+			"MINUTE": "Minute",
+			"DAY": "Tag",
+			"WEEK": "Woche",
+			"MONTH": "Monat"
+		},
+		"warning": {
+			"title": "Achtung!",
+			"description": "Ein früher Trade‑Einstieg ist potenziell riskant. Trades vor dem offiziellen Schluss können folgende Folgen haben:",
+			"risk1": "Ungültige Trade‑Ausführungen",
+			"risk2": "Unerwartete Kursbewegungen",
+			"risk3": "Höhere Verlustrisiken",
+			"caution": "Bitte geh vorsichtig vor und stell sicher, dass du die Risiken verstehst.",
+			"cancel": "Abbrechen",
+			"proceed": "Fortfahren"
+		}
+	},
+	"strategyType": {
+		"tradingTitle": "Trading‑Strategie",
+		"tradingDesc": "Eine Strategie, die auf kurzfristigen Kursbewegungen profitiert. Trades können Minuten bis Tage dauern.",
+		"tradingExample": "Beispiel: Day‑Trading mit gleitenden Durchschnitten auf 5‑Minuten‑Charts",
+		"investingTitle": "Investitionsstrategie",
+		"investingDesc": "Eine Strategie mit Fokus auf langfristiges Wachstum. Investments können Wochen bis Monate oder Jahre dauern.",
+		"investingExample": "Beispiel: Investieren basierend auf langfristigen Trends mit Wochen‑Charts",
+		"infoTitle": "Information zum Strategietyp",
+		"infoDesc": "Wähle zwischen Trading (kurzfristig) oder Investieren (langfristig), je nach Zielen und Risikotoleranz.",
+		"tradingInfo": "Trading‑Strategien sind für kurzfristige Marktbewegungen gedacht, in der Regel Positionen von Minuten bis Tagen.",
+		"investingInfo": "Investitionsstrategien fokussieren auf langfristiges Wachstum, typischerweise mit Positionen von Wochen bis Jahren."
+	},
+	"direction": {
+		"longTitle": "Long‑Position",
+		"longDesc": "Trade in Erwartung steigender Kurse. Du profitierst, wenn der Preis steigt.",
+		"shortTitle": "Short‑Position",
+		"shortDesc": "Trade in Erwartung fallender Kurse. Du profitierst, wenn der Preis fällt."
+	},
+	"tradable": {
+		"stockTitle": "Aktien",
+		"stockDesc": "Wertpapiere, die Eigentum an einem Unternehmen repräsentieren. Profitiere von Unternehmenswachstum und Dividenden.",
+		"etfTitle": "ETFs",
+		"etfDesc": "Investmentfonds, die mehrere Assets bündeln. Bekannt für Diversifikation und niedrige Kosten.",
+		"cryptoTitle": "Kryptowährung",
+		"cryptoDesc": "Digitale Vermögenswerte auf Blockchain‑Basis. Bekannt für hohe Volatilität und 24/7‑Handel.",
+		"forexTitle": "Forex",
+		"forexDesc": "Handel mit Währungspaaren. Profitiere von Wechselkursbewegungen."
+	},
+	"exposure": {
+		"title": "Maximale Exposition",
+		"desc": "Legt fest, welchen maximalen Prozentsatz oder Betrag deine Strategie in ein einzelnes Unternehmen investieren darf. Ein einfacher Weg, um Risiko und Diversifikation zu steuern.",
+		"glossary": "Im Glossar ansehen",
+		"learningCenter": "Zum Learning Center",
+		"units": {
+			"PERCENTAGE": "Prozentsatz",
+			"SHARE_COUNT": "Aktien",
+			"AMOUNT": "Betrag"
+		}
+	},
+	"homeMenu": {
+		"strategyType": "Strategietyp",
+		"direction": "Richtung",
+		"tradable": "Handelbare Werte",
+		"timeframe": "Zeitrahmen",
+		"execution": "Ausführung",
+		"orders": "Orders",
+		"exposure": "Exposition",
+		"completeSetup": "Einrichtung abschließen",
+		"backtest": "Backtesting",
+		"deploy": "Bereitstellen",
+		"entry": "Entry‑Bedingungen",
+		"addCondition": "Bedingung hinzufügen"
+	},
+	"popups": {
+		"strategyLimits": "Strategie‑Limits",
+		"strategyLimitsDesc": "Lege zusätzliche Regeln für deine Strategie fest. Zum Beispiel Mindest‑Cash‑Reserve oder Handelsstopp‑Bedingungen. Diese helfen bei automatisiertem Risikomanagement und Disziplin.",
+		"maxExposure": "Maximale Exposition",
+		"maxExposureDesc": "Legt fest, welchen maximalen Prozentsatz oder Betrag deine Strategie in ein einzelnes Unternehmen investieren darf. Ein einfacher Weg, um Risiko und Diversifikation zu steuern.",
+		"orderType": "Order‑Typ",
+		"orderTypeDesc": "Der Order‑Typ bestimmt, wie deine Trades ausgeführt werden. Market‑Orders werden sofort zum besten verfügbaren Preis ausgeführt. Limit‑Orders erlauben, einen bestimmten Preis festzulegen, führen aber ggf. nicht aus, wenn der Kurs diesen Preis nicht erreicht. Wähle den Typ, der zu deiner Strategie und Risikotoleranz passt.",
+		"allocationPerStock": "Allocation per stock:",
+		"retainAtLeast": "Behalte mindestens",
+		"percentCash": "% Cash im Konto",
+		"haltStrategyAfter": "Strategie beenden nach:",
+		"days": "Tagen",
+		"trades": "Trades",
+		"moreOptions": "Mehr Optionen",
+		"next": "Weiter",
+		"back": "Zurück",
+		"chooseAccount": "Konto wählen:",
+		"accountSize": "Kontogröße",
+		"limitOrderExpires": "Limit‑Order verfällt nach",
+		"candlesticks": "Kerzen",
+		"wantToTrade": "Ich möchte traden:",
+		"comingSoon": "Bald verfügbar",
+		"strategyType": {
+			"title": "Information zum Strategietyp",
+			"description": "Wähle zwischen Trading (kurzfristig) oder Investieren (langfristig), je nach Zielen und Risikotoleranz.",
+			"tradingInfo": "Trading‑Strategien sind für kurzfristige Marktbewegungen gedacht, in der Regel Positionen von Minuten bis Tagen.",
+			"investingInfo": "Investitionsstrategien fokussieren auf langfristiges Wachstum, typischerweise mit Positionen von Wochen bis Jahren.",
+			"header": "Art der Strategie:",
+			"trading": "Trading",
+			"investing": "Investieren",
+			"next": "Weiter"
+		},
+		"distance": {
+			"title": "Erkennungs‑Distanz für Trade‑Setups",
+			"description": "Lege fest, wie früh du über mögliche Trade‑Setups benachrichtigt werden möchtest. So kannst du dich besser vorbereiten.",
+			"warning": "Eine größere Distanz gibt mehr Vorbereitungszeit, kann aber zu mehr Fehl‑Signalen führen.",
+			"header": "Distanz bei Erkennung eines Trade‑Setups:",
+			"next": "Weiter"
+		},
+		"account": {
+			"title": "Konto‑Auswahl",
+			"description": "Wähle das Konto, das du für diese Strategie verwenden möchtest. Unterschiedliche Konten haben unterschiedliche Handelsrechte und Risikostufen.",
+			"warning": "Stelle sicher, dass das ausgewählte Konto genügend Guthaben hat und passende Handelsrechte besitzt.",
+			"header": "Konto wählen:",
+			"next": "Weiter"
+		},
+		"backtest": {
+			"title": "Backtest durchführen",
+			"description": "Teste deine Strategie anhand historischer Daten, um ihre Performance zu validieren, bevor du echtes Geld riskierst.",
+			"warning": "Vergangene Performance garantiert keine zukünftigen Ergebnisse. Überwache deine Strategie stets.",
+			"header": "Backtest durchführen:",
+			"next": "Backtest starten"
+		},
+		"deploy": {
+			"title": "Strategie bereitstellen",
+			"description": "Starte deine Strategie, um im Live‑Markt zu handeln. Stelle sicher, dass du alle Einrichtungsschritte beendet und deine Strategie gründlich überprüft hast.",
+			"warning": "Trading beinhaltet Risiken. Beginne mit kleinen Positionen und überwache die Performance sorgfältig.",
+			"header": "Strategie bereitstellen:",
+			"next": "Trading starten"
+		},
+		"complete": {
+			"title": "Einrichtung abgeschlossen",
+			"description": "Die Einrichtung deiner Strategie ist abgeschlossen. Du kannst jetzt mit Backtesting oder Deployment fortfahren.",
+			"nextSteps": "Wähle deinen nächsten Schritt:",
+			"backtest": "Strategie mit historischen Daten testen",
+			"deploy": "Im Live‑Markt traden",
+			"header": "Einrichtung abgeschlossen!",
+			"scrollRight": "Nach rechts scrollen, um mehr Optionen zu sehen"
+		},
+		"direction": {
+			"header": "Welche Richtung hat deine Strategie?",
+			"long": "Long",
+			"short": "Short",
+			"next": "Weiter"
+		},
+		"tradable": {
+			"search": "Suchen",
+			"mostPopular": "Am populärsten:",
+			"selected": "{{count}} {{type}} ausgewählt",
+			"next": "Weiter",
+			"add": "Hinzufügen"
+		},
+		"technical": {
+			"search": "Suchen",
+			"mostPopular": "Am populärsten:",
+			"next": "Weiter"
+		},
+		"execution": {
+			"header": "Wenn ein Trade‑Setup erkannt wird:",
+			"alert": "Mich benachrichtigen",
+			"execute": "Trade ausführen",
+			"next": "Weiter"
+		},
+		"orders": {
+			"chooseAccount": "Konto wählen:",
+			"orderType": "Order‑Typ:",
+			"accountSize": "Kontogröße",
+			"moreOptions": "Mehr Optionen",
+			"next": "Weiter",
+			"back": "Zurück",
+			"add": "Hinzufügen",
+			"limitOrderExpires": "Limit‑Order verfällt nach",
+			"candlesticks": "Kerzen",
+			"useMargin": "Margin‑Guthaben nutzen",
+			"marginWarning": "Margin‑Einsatz erhöht das Risiko und wird nicht empfohlen"
+		},
+		"orderTypeInfo": {
+			"title": "Order‑Typ",
+			"description": "Order‑Typen bestimmen, wie deine Trades ausgeführt werden. Market‑Orders werden sofort zum besten Preis ausgeführt. Limit‑Orders erlauben es, einen bestimmten Preis einzustellen, führen aber möglicherweise nicht aus, wenn der Markt diesen nicht erreicht. Wähle den Typ, der deinen Strategie- und Risikoeinstellungen entspricht.",
+			"viewGlossary": "Im Glossar ansehen",
+			"visitLearning": "Zum Learning Center"
+		}
+	},
+	"setup": {
+		"distanceTitle": "Erkennungs‑Distanz bei Setup‑Erkennung",
+		"distanceDesc": "Lege fest, wie früh du über mögliche Trade‑Setups benachrichtigt werden möchtest",
+		"chooseAccount": "Konto wählen",
+		"chooseAccountDesc": "Wähle das Konto, das du für diese Strategie nutzen möchtest",
+		"backtest": "Backtesting",
+		"backtestDesc": "Teste deine Strategie anhand historischer Daten, um ihre Performance zu prüfen",
+		"deploy": "Bereitstellen",
+		"deployDesc": "Starte deine Strategie im Live‑Markt",
+		"scrollRight": "Nach rechts scrollen, um mehr Optionen zu sehen",
+		"completeTitle": "Einrichtung abgeschlossen",
+		"completeDesc": "Die Einrichtung deiner Strategie ist abgeschlossen. Du kannst jetzt mit Backtesting oder Deployment fortfahren."
+	},
+	"api": {
+		"timeframe": {
+			"MINUTE": "Minute",
+			"DAY": "Tag",
+			"WEEK": "Woche",
+			"MONTH": "Monat"
+		},
+		"exposure": {
+			"PERCENTAGE": "Prozentsatz",
+			"SHARE_COUNT": "Aktienanzahl",
+			"AMOUNT": "Betrag"
+		}
+	},
+	"scrollRight": "Nach rechts scrollen für weitere Optionen"
+}
